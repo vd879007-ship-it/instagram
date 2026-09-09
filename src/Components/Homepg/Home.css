@@ -1,0 +1,18 @@
+.home-page {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  background-color: rgba(0,0,0,0.956);
+  min-height: 100vh;
+}
+
+.home-main {
+  margin-left: 90px;
+  flex: 1;
+  max-width: 470px;
+}
+
+.home-right {
+  width: 320px;
+  padding-top: 30px;
+}

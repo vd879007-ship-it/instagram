@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Instagram Sans";
+  src: url("./InstagramSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+body {
+  font-family: "Instagram Sans", sans-serif;
+}

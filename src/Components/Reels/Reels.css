@@ -1,0 +1,151 @@
+.reels-page {
+  margin-left: 72px;
+  min-height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.reel-main-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 25px;
+}
+
+.reel-info {
+  width: 260px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.reel-info-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.reel-profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reel-username {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dot {
+  color: #888;
+  font-size: 12px;
+}
+
+.follow-btn {
+  background: transparent;
+  border: none;
+  color: #4da6ff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.reel-people {
+  color: #ccc;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.reel-caption {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #f0f0f0;
+  line-height: 1.4;
+}
+
+.reel-container {
+  position: relative;
+  width: 380px;
+  height: 675px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #111;
+  flex-shrink: 0;
+}
+
+.reel-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mute-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #fff;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.reel-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding-bottom: 30px;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.action-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.action-icon.like {
+  color: #ff3040;
+}
+
+.reels-nav {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-arrow {
+  background: #262626;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-arrow:hover {
+  background: #363636;
+}
+
