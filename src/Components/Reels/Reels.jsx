@@ -1,11 +1,11 @@
-import React, { useState, useRef } from "react";
+﻿import React, { useState, useRef } from "react";
 import { FaHeart, FaRegComment, FaShare, FaBookmark, FaEllipsisH, FaVolumeMute, FaVolumeUp, FaChevronUp, FaChevronDown, FaPlay } from "react-icons/fa";
 import "./Reels.css";
 
 const reelsData = [
  
  {
-    videoSrc: "/public/v1.mp4",
+    videoSrc: "/v1.mp4",
     username: "im_ck_02",
     peopleCount: "7 people",
     caption1: "NOT Suryavamsam😂 Watch Till end 😂..",
@@ -15,7 +15,7 @@ const reelsData = [
     shares: "415",
   },
   {
-    videoSrc: "/public/v2.mp4",
+    videoSrc: "/v2.mp4",
     username: "ssnewsdigital",
     peopleCount: "3 people",
     caption1: "Lord Krishna fun",
@@ -25,7 +25,7 @@ const reelsData = [
     shares: "5,247",
   },
   {
-    videoSrc: "/public/v3.mp4",
+    videoSrc: "/v3.mp4",
     username: "foodie_tam",
     peopleCount: "1 people",
     caption1: "Lets make OWL sweet🔥",
@@ -35,7 +35,7 @@ const reelsData = [
     shares: "980",
   },
   {
-    videoSrc: "/public/v4.mp4",
+    videoSrc: "/v4.mp4",
     username: "",
     peopleCount: "5 people",
     caption1: "Yaru da nee 🔥",
@@ -45,7 +45,7 @@ const reelsData = [
     shares: "2,310",
   },
   {
-    videoSrc: "/public/v5.mp4",
+    videoSrc: "/v5.mp4",
     username: "comedyclub",
     peopleCount: "2 person",
     caption1: "Attu - Vetri 👀 ",
@@ -102,7 +102,7 @@ const Reels = () => {
         {/* LEFT: caption info */}
         <div className="reel-info">
           <div className="reel-info-header">
-            <img src="/public/boy 1 (2).jpg" className="reel-profile-pic" />
+            <img src="/boy 1 (2).jpg" className="reel-profile-pic" />
             <span className="reel-username">{reel.username}</span>
             <span className="dot">•</span>
             <button className="follow-btn">Follow</button>

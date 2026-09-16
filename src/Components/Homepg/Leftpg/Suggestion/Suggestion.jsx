@@ -1,31 +1,31 @@
-import React from "react";
+﻿import React from "react";
 import "./Suggestion.css";
 
 const suggestions = [
   {
     username: "Kaviya",
     note: "Suggested for you",
-    image: "/public/Sug 1.jpg",
+    image: "/Sug 1.jpg",
   },
   {
     username: "hussain",
     note: "Suggested for you",
-    image: "/public/Sug 4.jpg",
+    image: "/Sug 4.jpg",
   },
   {
     username: "Vasunthara",
     note: "Followed by black._.queen.43",
-    image: "/public/Sug 2.jpg",
+    image: "/Sug 2.jpg",
   },
   {
     username: "Sivanya",
     note: "Followed by kavi._.psk + 4 more",
-    image: "/public/Sug 3.jpg",
+    image: "/Sug 3.jpg",
   },
   {
     username: "Karthi",
     note: "Suggested for you",
-    image: "/public/Sug 5.jpg",
+    image: "/Sug 5.jpg",
   },
 ];
 
@@ -36,7 +36,7 @@ const Suggestion = () => {
       {/* Current User */}
       <div className="current-user">
         <img
-          src="/public/profile .jpg"
+          src="/profile .jpg"
           alt="user"
           className="sugg-avatar"
         />

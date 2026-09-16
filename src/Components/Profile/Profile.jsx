@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { FaCog, FaTh, FaBookmark, FaUserTag, FaCamera, FaPlus } from "react-icons/fa";
 import "./Profile.css";
 
@@ -10,11 +10,11 @@ const Profile = () => {
     followers: 49,
     following: 89,
     bioTags: "# Travel 🛂 💕",
-    profilePic: "/public/profile .jpg",
+    profilePic: "/profile .jpg",
   };
 
   const highlights = [
-    { img: "/public/hari.jpeg", label: "" },
+    { img: "/hari.jpeg", label: "" },
   ];
 
   return (

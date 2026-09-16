@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { FiSend, FiX, FiMaximize2, FiEdit3 } from "react-icons/fi";
 import "./Message.css";
 
@@ -20,7 +20,7 @@ const Messages = () => {
           <span className="message-count">2</span>
 
           <img
-            src="/public/mess 1.jpg"
+            src="/mess 1.jpg"
             alt="profile"
             className="message-user"
           />
@@ -46,7 +46,7 @@ const Messages = () => {
           <div className="message-list">
 
             <div className="message-item">
-              <img src="/public/mess 2.jpg" />
+              <img src="/mess 2.jpg" />
 
               <div>
                 <h4>Sudhar Sanan B</h4>
@@ -55,7 +55,7 @@ const Messages = () => {
             </div>
 
             <div className="message-item">
-              <img src="/public/mess 1.jpg" />
+              <img src="/mess 1.jpg" />
 
               <div>
                 <h4>Ariveyy 🌹</h4>
@@ -64,7 +64,7 @@ const Messages = () => {
             </div>
 
             <div className="message-item">
-              <img src="/public/mess 3.jpg"/>
+              <img src="/mess 3.jpg"/>
 
               <div>
                 <h4>☆ LOKI ☆</h4>
@@ -73,7 +73,7 @@ const Messages = () => {
             </div>
 
             <div className="message-item">
-              <img src="/public/mess 6.jpg" />
+              <img src="/mess 6.jpg" />
 
               <div>
                 <h4>Dharshu. 🪽</h4>
@@ -82,7 +82,7 @@ const Messages = () => {
             </div>
 
             <div className="message-item">
-              <img src="/public/mess 5.jpg" />
+              <img src="/mess 5.jpg" />
 
               <div>
                 <h4>Jothi Sudha</h4>
@@ -91,7 +91,7 @@ const Messages = () => {
             </div>
 
             <div className="message-item">
-              <img src="/public/mess 4.jpg"/>
+              <img src="/mess 4.jpg"/>
 
               <div>
                 <h4>EL Dorado</h4>

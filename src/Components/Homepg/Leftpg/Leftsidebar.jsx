@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import {
   FaInstagram,
@@ -86,7 +86,7 @@ const LeftSidebar = ({ onNotificationClick }) => {
         ))}
 
         <div className="sb-icon profile-icon" onClick={() => navigate("/profile")}>
-          <img src="/public/profile .jpg" alt="profile" />
+          <img src="/profile .jpg" alt="profile" />
           <span className="sb-tooltip">Profile</span>
         </div>
       </div>

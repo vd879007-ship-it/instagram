@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+﻿import React, { useState, useRef, useEffect } from "react";
 import {
   FaRegHeart, FaHeart, FaRegComment, FaRegPaperPlane,
   FaRegBookmark, FaBookmark, FaEllipsisH,
@@ -7,16 +7,16 @@ import StoryViewer from "./StoryViewer";
 import "./Mainreel.css";
 
 const stories = [
-  { username: "_pooranii_...", img: "/public/girl 1.jpg" },
-  { username: "Dharun_...", img: "/public/boy 1 (2).jpg" },
-  { username: "sheeladevi...", img: "/public/girl 2.jpg" },
-  { username: "vaira_krish...", img: "/public/boy 2.jpg" },
-  { username: "suriya_m_...", img: "/public/boy 3.jpg" },
-  { username: "itz_vedha_7", img: "/public/boy 4.jpg" },
-  { username: "subi_Shankar...", img: "/public/girl 3.jpg" },
-  { username: "Vino...", img: "/public/girl 4.jpg" },
-  { username: "Dharshini...", img: "/public/mess 6.jpg" },
-  { username: "Ruby...", img: "/public/girl 4.jpg" },
+  { username: "_pooranii_...", img: "/girl 1.jpg" },
+  { username: "Dharun_...", img: "/boy 1 (2).jpg" },
+  { username: "sheeladevi...", img: "/girl 2.jpg" },
+  { username: "vaira_krish...", img: "/boy 2.jpg" },
+  { username: "suriya_m_...", img: "/boy 3.jpg" },
+  { username: "itz_vedha_7", img: "/boy 4.jpg" },
+  { username: "subi_Shankar...", img: "/girl 3.jpg" },
+  { username: "Vino...", img: "/girl 4.jpg" },
+  { username: "Dharshini...", img: "/mess 6.jpg" },
+  { username: "Ruby...", img: "/girl 4.jpg" },
 ];
 
 const posts = [
@@ -35,8 +35,8 @@ const posts = [
     id: 2,
     username: "peepandpuffofficial",
     time: "5h",
-    avatar: "/public/lord.jpg",
-    image: "/public/v2.mp4",
+    avatar: "/lord.jpg",
+    image: "/v2.mp4",
     mediaType: "video",
     likes: "20.5k likes",
     caption: "Bridal collection now open for bookings 👰",
@@ -67,8 +67,8 @@ const posts = [
     id: 5,
     username: "VijayTv_official",
     time: "1d",
-    avatar: "/public/Vijay Television.jpg",
-    image: "/public/v12.mp4",
+    avatar: "/Vijay Television.jpg",
+    image: "/v12.mp4",
     mediaType: "video",
     likes: "1k likes",
     caption: "Fun iruku 😍",
@@ -229,3 +229,4 @@ const MainReel = () => {
 };
 
 export default MainReel;
+

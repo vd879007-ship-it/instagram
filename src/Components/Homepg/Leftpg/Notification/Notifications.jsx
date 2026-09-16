@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { FaTimes } from "react-icons/fa";
 import "./Notifications.css";
 
@@ -7,7 +7,7 @@ const notificationsData = {
     {
       id: 1,
       user: "dr.shakthi_chandran",
-      img: "/public/boy 3.jpg",
+      img: "/boy 3.jpg",
       text: "replied to your comment on dr.shakthi_chandran's post: Thanks! ❤️ Check your DM for details.",
       time: "14h",
       type: "reply",
@@ -15,7 +15,7 @@ const notificationsData = {
     {
       id: 2,
       user: "_dadz_girl_2007",
-      img: "/public/girl 4.jpg",
+      img: "/girl 4.jpg",
       text: "started following you.",
       time: "14h",
       type: "follow",
@@ -23,7 +23,7 @@ const notificationsData = {
     {
       id: 3,
       user: "kavi._psk",
-      img: "/public/mess 3.jpg",
+      img: "/mess 3.jpg",
       text: "liked your photo.",
       time: "12h",
       type: "like",
@@ -31,7 +31,7 @@ const notificationsData = {
     {
       id: 4,
       user: "5zu_fx",
-      img: "/public/boy 1 (2)",
+      img: "/boy 1 (2)",
       text: "started following you.",
       time: "10h",
       type: "follow",
@@ -39,7 +39,7 @@ const notificationsData = {
     {
       id: 5,
       user: "_sathya_se",
-      img: "/public/girl 2.jpg",
+      img: "/girl 2.jpg",
       text: "commented: Nice pic! 🔥",
       time: "8h",
       type: "reply",
@@ -49,7 +49,7 @@ const notificationsData = {
     {
       id: 6,
       user: "d7trixx",
-      img: "/public/boy 4.jpg",
+      img: "/boy 4.jpg",
       text: "mentioned you in a comment: @sai_87746 Please Check DM",
       time: "2d",
       type: "mention",
@@ -57,7 +57,7 @@ const notificationsData = {
     {
       id: 7,
       user: "zerosoul___",
-      img: "/public/mess 1.jpg",
+      img: "/mess 1.jpg",
       text: "posted a thread you might be interested in: Yar intha 🥵",
       hashtags: ["#fashionstyle", "#fitness", "#fashmodal", "#ootymodel", "#ootypaiyan"],
       time: "5d",
@@ -66,7 +66,7 @@ const notificationsData = {
     {
       id: 8,
       user: "yazhini_maran",
-      img: "/public/girl 1.jpg",
+      img: "/girl 1.jpg",
       text: "liked your photo.",
       time: "3d",
       type: "like",
@@ -74,7 +74,7 @@ const notificationsData = {
     {
       id: 9,
       user: "jagan_official",
-      img: "/public/mess 4.jpg",
+      img: "/mess 4.jpg",
       text: "started following you.",
       time: "4d",
       type: "follow",
@@ -82,7 +82,7 @@ const notificationsData = {
     {
       id: 10,
       user: "anisha_makeover",
-      img: "/public/girl 4.jpg",
+      img: "/girl 4.jpg",
       text: "commented: 😍😍😍",
       time: "6d",
       type: "reply",
@@ -92,7 +92,7 @@ const notificationsData = {
     {
       id: 11,
       user: "natural_crazyy_.",
-      img: "/public/mess 2.jpg",
+      img: "/mess 2.jpg",
       text: "mentioned you in a comment: @sai_87746",
       time: "6d",
       type: "mention",
@@ -108,7 +108,7 @@ const notificationsData = {
     {
       id: 13,
       user: "arun_vishal",
-      img: "/public/mess 3.jpg",
+      img: "/mess 3.jpg",
       text: "liked your video.",
       time: "3w",
       type: "like",
@@ -116,7 +116,7 @@ const notificationsData = {
     {
       id: 14,
       user: "sasikumar_ilaiyaraj",
-      img: "/public/boy 3.jpg",
+      img: "/boy 3.jpg",
       text: "commented: Semma bro 🔥🔥",
       time: "3w",
       type: "reply",
@@ -124,7 +124,7 @@ const notificationsData = {
     {
       id: 15,
       user: "thilaka_here",
-      img: "/public/mess 4.jpg",
+      img: "/mess 4.jpg",
       text: "started following you.",
       time: "4w",
       type: "follow",
